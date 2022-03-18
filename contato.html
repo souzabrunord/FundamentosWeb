@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/img/css/styles.css">
     <title>Contato</title>
 </head>
 
 <body>
+
         <h1>Bem-Vindos</h1>
         <div>
             <ul>
@@ -22,12 +24,33 @@
             <img src="./img/perfil.png">
 
             
-        <h2>Sobre mim</h2>
-            <ul>    
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa impedit repudiandae praesentium corporis <br>quisquam aut porro, odit, facilis 
-            aperiam velit consectetur maxime,</br> sapiente quas aliquam tempore est exercitationem quos eius.</p>
-            </ul>
-
+            <section class="form">
+                <form method="post" action="" id="contato">
+                    <fieldset>
+                        <legend>Contato</legend>
+                        <ul>
+                            <p> Informe seus dados para que eu entre em contato o mais breve possível:</p>
+        
+                            <li><label for="name">Nome:     </label><input type="text" name="name" id="name" value=""></li><br>
+                            <li><label for="email">E-mail:   </label><input type="email" name="email" id="email" value=""></li>
+                            <br>
+                            <li><label>Telefone: <input required name="tel" pattern="[0−9]2[\s][0-9]{4}-[0-9]{4}"></label> Ex:(DDD)
+                                 1234-5678
+                                  <br>
+                                  <br>
+                                </li>
+                            <br>
+                        </ul>
+        
+                        <ul>
+        
+                            <li><label for="name">Assunto: </label><input type="text" name="name" id="name" value=""></li><br>
+        
+                            <br>
+                            <input type="submit" value="Enviar"><br>
+        
+                        </ul>
+                    </fieldset>
             
 </body>
 </html> 

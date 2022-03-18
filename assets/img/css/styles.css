@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(rgb(48, 170, 240), rgb(117, 209, 155));
+    font-family: Courier New;
+    text-align: justify;
+  }
+
+  h1 {
+    color: black;
+    font-size: 3.3rem;
+    padding: 0rem;
+    text-align: left;  
+}
+
+.form {
+    padding-left: 0%;
+}
+
+.topicos{
+    color: black;
+    font-size: 2.5rem;
+    padding: 0rem;
+    text-align: left;  
+}
+.introducao{
+    color: black;
+    font-size: 1.56rem;
+    padding: 0rem;
+    text-align: left;  
+}
